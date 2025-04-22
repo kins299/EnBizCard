@@ -1,7 +1,7 @@
 FROM node:18.17.0-alpine AS build
 WORKDIR /app
 COPY package*.json ./
-RUN npm i
+RUN sudo npm i
 COPY . .
 RUN npm run generate
 
