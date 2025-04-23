@@ -11,7 +11,7 @@
   "engines": {
     "node": ">=18.x"
   },
-  "engineStrict": false,
+  "engineStrict": true,
   "dependencies": {
     "@caohenghu/vue-colorpicker": "^1.2.4",
     "@nuxtjs/pwa": "^3.3.5",
